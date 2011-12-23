@@ -1,0 +1,23 @@
+# Sample file to extract required files from an original HTC Wildfire device
+# This script is not required if you have the proprietary repository
+#
+# This file is the file list used by extract-files.sh
+
+/bin/akmd
+
+/etc/AudioFilter.csv
+/etc/AudioPara4.csv
+/etc/AudioPara_HTC_NEL.csv
+/etc/AudioPreProcess.csv
+
+/lib/libaudioeq.so
+/lib/libcamera.so
+/lib/libgps.so
+/lib/libhtc_acoustic.so
+/lib/libhtc_ril.so
+/lib/libmm-adspsvc.so
+/lib/liboemcamera.so
+/lib/libOmxH264Dec.so
+/lib/libOmxMpeg4Dec.so
+/lib/libOmxVidEnc.so
+

@@ -1,0 +1,10 @@
+# Main panel
+key 399   GRAVE
+key 107   ENDCALL           WAKE_DROPPED
+key 116   POWER             WAKE_DROPPED
+
+key 231   CALL              WAKE_DROPPED
+
+# Volume control
+key 115   VOLUME_UP         WAKE
+key 114   VOLUME_DOWN       WAKE
