@@ -57,7 +57,7 @@ ro.tether.denied=false
 # Default network type.
 # 0 => WCDMA Preferred.
 ro.telephony.default_network=0
-ro.telephony.ril.v3=signalstrength
+ro.telephony.ril.v3=1
 
 # Enable Google-specific location features,
 # like NetworkLocationProvider and LocationCollector.
@@ -80,4 +80,3 @@ ro.media.dec.jpeg.memcap=20000000
 
 # Set default USB interface
 persist.sys.usb.config=adb
-
