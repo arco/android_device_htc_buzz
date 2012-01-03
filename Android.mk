@@ -6,6 +6,7 @@ ifeq ($(TARGET_DEVICE),buzz)
         $(LOCAL_PATH)/libcopybit/Android.mk \
         $(LOCAL_PATH)/libgralloc/Android.mk \
         $(LOCAL_PATH)/liblights/Android.mk \
+        $(LOCAL_PATH)/librpc/Android.mk \
         $(LOCAL_PATH)/libsensors/Android.mk \
         $(LOCAL_PATH)/recovery/offmode/Android.mk
 
