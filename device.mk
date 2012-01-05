@@ -48,6 +48,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keyfiles/atmel-touchscreen.kl:system/usr/keylayout/atmel-touchscreen.kl \
     $(LOCAL_PATH)/keyfiles/atmel-touchscreen.kcm:system/usr/keychars/atmel-touchscreen.kcm \
+    $(LOCAL_PATH)/keyfiles/synaptics-rmi-touchscreen.kl:system/usr/keylayout/synaptics-rmi-touchscreen.kl \
+    $(LOCAL_PATH)/keyfiles/synaptics-rmi-touchscreen.kcm:system/usr/keychars/synaptics-rmi-touchscreen.kcm \
     $(LOCAL_PATH)/keyfiles/buzz-keypad.kl:system/usr/keylayout/buzz-keypad.kl \
     $(LOCAL_PATH)/keyfiles/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl
 
