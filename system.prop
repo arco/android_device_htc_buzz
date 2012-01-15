@@ -45,7 +45,7 @@ ro.gsm.2nd_data_retry_config=max_retries=3, 2000, 2000, 2000
 # Time between scans in seconds. Keep it high to minimize battery drain.
 # This only affects the case in which there are remembered access points,
 # but none are in range.
-wifi.interface=eth0
+wifi.interface=wlan0
 wifi.supplicant_scan_interval=45
 
 # Mobile data interfaces
