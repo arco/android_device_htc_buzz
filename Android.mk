@@ -8,6 +8,7 @@ ifeq ($(TARGET_DEVICE),buzz)
         $(LOCAL_PATH)/liblights/Android.mk \
         $(LOCAL_PATH)/librpc/Android.mk \
         $(LOCAL_PATH)/libsensors/Android.mk \
+        $(LOCAL_PATH)/libstagefrighthw/Android.mk \
         $(LOCAL_PATH)/recovery/offmode/Android.mk
 
     include $(subdir_makefiles)
