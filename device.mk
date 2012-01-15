@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.buzz.rc:root/init.buzz.rc \
+    $(LOCAL_PATH)/init.buzz.usb.rc:root/init.buzz.usb.rc \
     $(LOCAL_PATH)/ueventd.buzz.rc:root/ueventd.buzz.rc \
     $(LOCAL_PATH)/vold.fstab:system/etc/vold.fstab \
     $(LOCAL_PATH)/prebuilt/FileManager.apk:system/app/FileManager.apk

@@ -112,3 +112,4 @@ TARGET_RECOVERY_INITRC := device/htc/buzz/init.recovery.rc
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/buzz/prebuilt/recovery_kernel
 
 BOARD_UMS_LUNFILE := "/sys/devices/platform/usb_mass_storage/lun0/file"
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/usb_mass_storage/lun0/file
