@@ -12,11 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_PACKAGES := \
-    Camera \
-    SpareParts \
-    Development
-
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 LOCAL_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 else
@@ -43,4 +38,3 @@ PRODUCT_DEVICE := buzz
 PRODUCT_MODEL := Wildfire
 PRODUCT_BRAND := HTC
 PRODUCT_MANUFACTURER := HTC
-
