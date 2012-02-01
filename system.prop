@@ -71,6 +71,7 @@ ro.opengles.version=65536
 sys.checkfs.fat=false
 
 # Performance settings.
+dalvik.vm.dexopt-data-only=1
 dalvik.vm.execution-mode=int:jit
 debug.sf.hw=0
 ro.config.disable_hw_accel=true
