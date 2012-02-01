@@ -57,6 +57,9 @@ on boot
     write /proc/sys/net/core/wmem_max 262144
 
 on fs
+    # framebuffer permission for copybit
+    chmod 0666 /dev/graphics/fb0
+
     chown radio system /sys/module/gpio_event/parameters/phone_call_status
     chmod 0664 /sys/module/gpio_event/parameters/phone_call_status
 
