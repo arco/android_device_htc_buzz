@@ -31,10 +31,3 @@ $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 
 $(call inherit-product-if-exists, vendor/htc/buzz/buzz-vendor.mk)
 $(call inherit-product-if-exists, vendor/htc/buzz/buzz-vendor-blobs.mk)
-
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := buzz
-PRODUCT_DEVICE := buzz
-PRODUCT_MODEL := Wildfire
-PRODUCT_BRAND := HTC
-PRODUCT_MANUFACTURER := HTC
