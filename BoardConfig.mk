@@ -85,6 +85,7 @@ BOARD_USES_QCOM_LIBS := true
 
 #BOARD_USE_LEGACY_TOUCHSCREEN := true
 
+TARGET_WEBKIT_USE_MORE_MEMORY := true
 JS_ENGINE := v8
 
 # # cat /proc/mtd
