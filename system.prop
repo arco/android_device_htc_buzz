@@ -81,3 +81,6 @@ ro.media.dec.jpeg.memcap=20000000
 
 # Set default USB interface
 persist.sys.usb.config=mass_storage,adb
+
+# Enable debug mode by default
+persist.service.adb.enable=1
