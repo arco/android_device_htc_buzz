@@ -75,6 +75,9 @@ PRODUCT_PACKAGES += \
     libOmxVidEnc \
     com.android.future.usb.accessory
 
+PRODUCT_PACKAGES += \
+    Torch
+
 # Bluetooth configuration files
 PRODUCT_COPY_FILES += \
     system/bluetooth/data/main.conf:system/etc/bluetooth/main.conf
