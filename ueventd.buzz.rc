@@ -6,3 +6,6 @@ mtd@misc                0460    radio       diag
 /dev/radio_feedback     0660    radio       radio
 /dev/smd9               0600    system      system
 /dev/ttyHS0             0660    bluetooth   bluetooth
+
+# rfkill needs world writable/readable
+/dev/rfkill             0666    root        root
